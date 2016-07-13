@@ -1,13 +1,13 @@
 {
-  "name": "ui-driver-skel",
+  "name": "ui-driver-ovh",
   "version": "0.0.1",
-  "description": "Skeleton Rancher UI driver for custom docker-machine drivers",
+  "description": "Rancher UI driver for docker-machine-driver-ovh",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rancher/ui-driver-skel.git"
+    "url": "git+https://github.com/bokazio/ui-driver-ovh.git"
   },
-  "author": "Rancher Labs, Inc.",
+  "author": "Rancher Labs, Inc. + bokazio",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/rancher/rancher/issues"
@@ -18,7 +18,7 @@
     "build": "./node_modules/.bin/gulp build",
     "upload": "./scripts/upload"
   },
-  "homepage": "https://github.com/rancher/ui-driver-skel#readme",
+  "homepage": "https://github.com/bokazio/ui-driver-ovh.git#readme",
   "devDependencies": {
     "del": "^2.2.0",
     "gulp": "^3.9.1",

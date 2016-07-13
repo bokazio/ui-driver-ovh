@@ -1,12 +1,8 @@
-# ui-driver-skel
-Skeleton Rancher UI driver for custom docker-machine drivers
+# ui-driver-ovh
+Rancher UI driver for OVH docker-machine driver
 
 ## Setup
 
-* Fork this repository into your own account as `ui-driver-DRIVERNAME`
-  * DRIVERNAME should be the name of the driver that you would give to `docker-machine create --driver`, e.g. "mycompany", "digitalocean", "vultr", etc.
-* Update the "name" in package.json to match
-  * You should also update description, URLs, etc, but these aren't strictly required.
 * `npm install`
 * `bower install`
 
